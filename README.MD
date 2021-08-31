@@ -4,7 +4,7 @@
 
 This project does not solve the problem of video. It's here because some people expressed an interest in having it as is. I'm working on a complimentary project that plugs into J2 of this board and will convert video to a LCD display, allowing the Mac to look like nothing is changed... except that the display is mysteriously flat, and very sharp, and it doesn't get hot any more.
 
-The PSU board mounts a Mean Well PT-65B power supply module that meets most of the Mac's needs. The -5V supply is provided by an additional 7905 linear regulator. The scematic is extremely simple - a rotary encoder routed to header J2, a fan header, and apart from that the PCB is mostly physical support. Connectors are placed so that it should be no trouble plugging the original Mac drive power and logic board cables into this board.
+The PSU board mounts a Mean Well PT-65B power supply module that meets most of the Mac's needs. The -5V supply is provided by an additional 7905 linear regulator. The schematic is extremely simple - a rotary encoder routed to header J2, a fan header, and apart from that the PCB is mostly physical support. Connectors are placed so that it should be no trouble plugging the original Mac drive power and logic board cables into this board.
 
 This power supply is not quite as beefy as the original Mac PSU. But it's not 30 years old and you're not powering a 1980s hard drive or a CRT any more. From what I have measured I think it's enough.
 
